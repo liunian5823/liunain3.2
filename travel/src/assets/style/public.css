@@ -1,0 +1,97 @@
+/* 底部导航 */
+.nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-color: rgb(235,235,228);
+  padding: 0 0.2rem;
+  z-index: 99999;
+}
+.nav img{
+  width: 0.5rem;
+  height: 0.2rem;
+}
+.nav p{
+  font-size: 0.26rem;
+  padding-top: 0.04rem;
+}
+
+/* 列表页公用样式 */
+
+.content {
+    display: flex;
+    height: auto;
+    overflow: hidden;
+    padding: .2rem 0;
+    justify-content: space-between;
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  .content_img,
+  .content_list {
+    width: 50%;
+  }
+
+  .content_img {
+    width: 100%;
+    height: auto;
+    margin-left: 0.1rem;
+    margin-right: 0.2rem;
+
+  }
+
+  .content_img img {
+    width: 100%;
+    display: block;
+  }
+
+  .content_list {
+    font-size: 12px;
+  }
+  
+  /* 顶部返回公用*/
+  .header-abs {
+    position: absolute;
+    left: .2rem;
+    top: .2rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    border-radius: .4rem;
+    background-color: rgba(0, 0, 0, .8);
+    color: black;
+  
+  }
+  
+  .header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0.8rem;
+    color: #000;
+    background-color: #0086b3;
+    font-size: 0.35rem;
+    z-index: 2;
+    line-height: 0.8rem;
+  }
+  
+  .header-fixed-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: .6rem;
+    text-align: center;
+    font-size: .4rem;
+    color: #fff;
+  }
+  
+  .header-fixed-back img {
+    width: .6rem;
+    color: white;
+    padding-bottom: 0.09rem;
+  }
